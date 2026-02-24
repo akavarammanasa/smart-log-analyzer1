@@ -20,12 +20,13 @@ Clone the repository:
 ```bash
 git clone https://github.com/akavarammanasa/smart-log-analyzer1.git
 cd smart-log-analyzer
-
-
 pip install -r requirements.txt
+```
 
-running tests
+## running tests
 
+```python
 pytest -v
 
 pytest --html=report.html --self-contained-html
+```
